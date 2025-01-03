@@ -13,7 +13,7 @@ The tasks in 1. and the surrounding json data of 2. will be combined in a new fi
 
 + I used todo.txt with UTF-8 encoding (set in the editor I saved from - I think this is what Simpletask uses).
 
-+ Todo.txt needs to be without format/syntax errors or this program will break. Also, it is likely that \ and " will break it - remove them first in a text editor if necessary. I use double quotes " for inches, but replaced with two single quotes '' - which happen to look like double quotes " in Tasks app font. All other symbols available in Simpletask seem to work OK.
++ Todo.txt needs to be without format/syntax errors or this program will break. Also, it is likely that \ and double quotes " will break it - remove them first in a text editor if necessary. I use double quotes " for inches, but replaced with two single quotes '' - which happen to look like double quotes " in Tasks app font. All other symbols available in Simpletask seem to work OK.
 
 + This does not process recurring/repeating todo format of Simpletask into Tasks.org recurring tasks. The syntax is left in the title of the task in Tasks.org.
 
