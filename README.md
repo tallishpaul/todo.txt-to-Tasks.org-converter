@@ -15,7 +15,7 @@ The tasks in 1. and the surrounding json data of 2. will be combined in a new fi
 
 + Todo.txt needs to be without format/syntax errors or this program will break. Also, it is likely that \ and double quotes " will break it - remove them first in a text editor if necessary. I use double quotes " for inches, but replaced with two single quotes '' - which happen to look like double quotes " in Tasks app font. All other symbols available in Simpletask seem to work OK.
 
-+ This does not process recurring/repeating todo format of Simpletask into Tasks.org recurring tasks. The syntax is left in the title of the task in Tasks.org.
++ This processes todo format creation date, completion date, due date, threshold date and whether the todo is complete, and converts them to the equivalent Tasks.org fields. It does not process recurring/repeating todo format of Simpletask into Tasks.org recurring tasks. The syntax is left in the title of the task in Tasks.org.
 
 + Each task after the first one in a Tasks.org json has a field "order", a 9 digit number. In short, this doesn't appear to be needed to import todos, so is left out.
 
